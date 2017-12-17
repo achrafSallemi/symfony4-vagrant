@@ -7,5 +7,4 @@
 ###< symfony/framework-bundle ###
 
 .vagrant/*
-composer.lock
 *-console.log
