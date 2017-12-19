@@ -25,11 +25,6 @@ apt-get update > /dev/null 2>&1
 ###################################################################
 apt-get install -y --no-install-recommends php7.1 php7.1-fpm php7.1-cli php7.1-dev php7.1-xdebug php7.1-curl php7.1-intl php7.1-xml php7.1-zip
 ###################################################################
-# npm
-###################################################################
-apt-get install -y npm nodejs
-ln -s /usr/bin/nodejs /usr/bin/node
-###################################################################
 # composer
 ###################################################################
 cd /tmp && curl -O https://getcomposer.org/installer && php installer && mv composer.phar /usr/local/bin/composer
